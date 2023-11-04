@@ -193,8 +193,9 @@ function openPopup(assignment) {
     <p style="font-size: 12px" id="loading_text"></p>
   </div>
   <hr>
-<h2> By stefcodessss @ deepcoder.co.uk & deepradio.co.uk </h2>
-  `;
+  <p style="font-size: 12px">Made by: StefCodes on deepcoder.co.uk | Website: <a target="_blank" href="https://deepcoder.co.uk">deepcoder.co.uk</a> | Source code: <a target="_blank" href="https://github.com/ading2210/edpuzzle-answers">ading2210/edpuzzle-answers</a></p>
+  <p style="font-size: 12px">Licenced under the <a target="_blank" href="https://github.com/ading2210/edpuzzle-answers/blob/main/LICENSE">GNU GPL v3</a>. Do not reupload or redistribute without abiding by those terms.</p>
+  <p style="font-size: 12px">Available now from our <a target="_blank" href="https://deepradio.co.uk/discord">Discord server</a>: <i> An open beta of a completely overhauled GUI, with proper mobile support, ChatGPT integration for open-ended questions, and more. </i></p>`;
   popup = window.open("about:blank", "", "width=600, height=400");
   popup.document.write(base_html);
 
